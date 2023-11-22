@@ -1,0 +1,52 @@
+:root {
+    --fondo: #f1f3f6;
+    --fuente: #0c0d11;
+    --bloque: #e9e9ea;
+    --borde_select: #80accf;
+    --boton_login: #1977f1 ;
+    --fuenteboton: #fafcff;
+    --fuente_recuperar: #3c85dd;
+    --boton_crear: #41b729;
+  }
+
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box; /*Hack para el uso del box model*/
+    scroll-snap-type: mandatory;
+  }
+
+  main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px 
+ }
+
+body{
+    font-family: Impact, SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+  /* Configuración de fuente */
+  body {
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+  }
+
+  .formulario {
+    background-color: var(--fondo);
+    width: min(60rem, 100%);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+  
+  .formulario fieldset {
+    border: none;
+  }
+  
+  .formulario legend {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    color: var(--primario);
+  }
